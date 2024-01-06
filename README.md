@@ -1,4 +1,4 @@
-# OOPLT.VN.20231-19
+# OOLT.VN.20231-19
 The team was founded for the OOP course held by the semester 2023.1, SoICT, creating an application that can help people visualize sorting algorithms. Array is the most basic structure of computer science. Most operations as well as other data structures are built and performed on an
 array. In the scope of the software, the application will explain three sorting algorithms on an array: Merge sort, counting sort and radix sort.
 
