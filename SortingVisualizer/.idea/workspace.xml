@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="455549f6-a2ed-4e3c-8a00-a42315384407" name="Changes" comment="" />
+    <list default="true" id="455549f6-a2ed-4e3c-8a00-a42315384407" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -32,7 +34,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "feature/readme",
+    "git-widget-placeholder": "master",
     "last_opened_file_path": "/Users/lpnizmeee/Documents/OOLT.VN.20231-19/SortingVisualizer"
   }
 }]]></component>
