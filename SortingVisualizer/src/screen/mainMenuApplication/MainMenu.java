@@ -110,10 +110,7 @@ public class MainMenu extends JFrame {
                 + "but to be suitable with our project, we only focus on 3 algorithms: \n"
                 + "     + Merge Sort\n"
                 + "     + Counting Sort\n"
-                + "     + Radix Sort\n"
-                + "In addition, to diversify the algorithms, we have visualized two more algorithms: \n"
-                + "     + Bubble sort\n"
-                + "     + Selection sort\n\n"
+                + "     + Radix Sort\n\n"
                 + "This application invented aiming to the purpose of visualizing "
                 + "these alogrithms in a colorful way to help "
                 + "user understand this concept easier\nand meet our class "
@@ -122,7 +119,7 @@ public class MainMenu extends JFrame {
                 + "not necessarily distinct, in non-decreasing order in this visualization.\n\n"
                 + "Everything you need is:\n "
                 + "1.Create random array by the leftside button\n "
-                + "2.Choosing 1 of 5 algorithms in the blocks to start your journey "
+                + "2.Choosing one of 3 algorithms in the blocks to start your journey "
                 + "and view it visualizes, the explanation will be demonstrate on the right side.\n\n"
                 + "Thank you!";
         JOptionPane.showMessageDialog(null, helpMessage, "Help", JOptionPane.INFORMATION_MESSAGE);
