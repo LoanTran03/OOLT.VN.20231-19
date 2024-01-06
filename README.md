@@ -37,7 +37,10 @@ array. In the scope of the software, the application will explain three sorting 
 
 ### Project video demo
 
+https://github.com/LoanTran03/OOLT.VN.20231-19/assets/105842235/3a174d20-054f-4ba4-890e-fbe8b45b89a7
+
 ---
+
 ### Inspiration
 1. VisualGO: https://visualgo.net/en
 2. GeeksforGeeks :
