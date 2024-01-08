@@ -124,8 +124,4 @@ public class MainMenu extends JFrame {
                 + "Thank you!";
         JOptionPane.showMessageDialog(null, helpMessage, "Help", JOptionPane.INFORMATION_MESSAGE);
     }
-
-    public static void main(String[] args) {
-        new MainMenu();
-    }
 }

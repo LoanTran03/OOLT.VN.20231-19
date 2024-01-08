@@ -1,6 +1,6 @@
 package sorting;// Sorting.Sort algorithms
 
-public class Sort {
+public abstract class Sort {
     // swap element and target in the array
     protected static <T extends Comparable<T>> void swap(T[] data, int element1, int element2)
     {
