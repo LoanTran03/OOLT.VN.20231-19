@@ -132,7 +132,7 @@ public class Visualizer
         for (i = n - 1; i >= 0; i--)
         {
             output[count[ (arr[i]/exp)%10 ] - 1] = arr[i];
-            comp++;
+            swapping++;
             count[ (arr[i]/exp)%10 ]--;
         }
 
@@ -209,21 +209,25 @@ public class Visualizer
 
         for (int i = 0; i < N; i++) {
             countArray[array[i]]++;
+            swapping++;
         }
 
         for (int i = 1; i <= M; i++) {
             countArray[i] += countArray[i - 1];
+            swapping++;
         }
 
         int[] outputArray = new int[N];
 
         for (int i = N - 1; i >= 0; i--) {
             outputArray[countArray[array[i]] - 1] = array[i];
+            swapping++;
             countArray[array[i]]--;
         }
 
         for (int i = 0; i < N; i++) {
             array[i] = outputArray[i];
+            swapping++;
             bars[i].clear(g);
             bars[i].setValue(array[i]);
             if(colo%2==0) {
