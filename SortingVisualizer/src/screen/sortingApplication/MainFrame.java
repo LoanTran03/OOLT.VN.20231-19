@@ -50,7 +50,7 @@ public class MainFrame extends JFrame implements PropertyChangeListener,
 		setLocationRelativeTo(null);
 		setResizable(false);
 		setBackground(ColorManager.BACKGROUND);
-		setTitle("TEAM 19's Sorting screen.sortingApplication.MainFrame.Visualizer");
+		setTitle("TEAM 19's Sorting Visualizer");
 
 		initialize();
 	}
