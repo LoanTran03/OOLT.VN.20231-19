@@ -63,4 +63,6 @@ public class MergeSort extends Sort {
             data[start + i] = temp[i];
     }
     /*--------------------------------------------------------*/
+    @Override
+    public  <T extends Comparable<T>> void sort(Integer[] arr) { mergeSort(arr);}
 }

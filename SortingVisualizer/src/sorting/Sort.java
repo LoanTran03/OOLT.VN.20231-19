@@ -8,5 +8,6 @@ public abstract class Sort {
         data[element2] = data[element1];
         data[element1] = temp;
     }
+    public <T extends Comparable<T>> void sort(Integer[] arr) {}
 }
 

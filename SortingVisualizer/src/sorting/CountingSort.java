@@ -2,7 +2,7 @@ package sorting;
 
 public class CountingSort extends Sort {
     /*COUNTING SORT*/
-    public static <T extends Comparable<T>> void countingSort(Integer[] arr) {
+    private static <T extends Comparable<T>> void countingSort(Integer[] arr) {
         int N = arr.length;
         int M = 0;
 
@@ -27,4 +27,6 @@ public class CountingSort extends Sort {
             countArray[arr[i]]--;
         }
     }
+    @Override
+    public  <T extends Comparable<T>> void sort(Integer[] arr) { countingSort(arr);}
 }

@@ -166,7 +166,8 @@ public class Visualizer
 
         // calculate elapsed time
         startTime = System.nanoTime();
-        RadixSort.radixSort(array.clone(), array.length);
+        RadixSort radixSort = new RadixSort();
+        radixSort.sort(array.clone());
         time = System.nanoTime() - startTime;
 
         comp = swapping = 0;
@@ -194,7 +195,9 @@ public class Visualizer
 
         // calculate elapsed time
         startTime = System.nanoTime();
-        CountingSort.countingSort(array.clone());
+        CountingSort countingSort = new CountingSort();
+        countingSort.sort(array.clone());
+
         time = System.nanoTime() - startTime;
 
         comp = swapping = 0;
@@ -258,7 +261,8 @@ public class Visualizer
 
         // calculate elapsed time
         startTime = System.nanoTime();
-        MergeSort.mergeSort(array.clone());
+        MergeSort mergeSort = new MergeSort();
+        mergeSort.sort(array.clone());
         time = System.nanoTime() - startTime;
 
         comp = swapping = 0;

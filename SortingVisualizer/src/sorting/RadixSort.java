@@ -49,4 +49,7 @@ public class RadixSort extends Sort {
             countSort(data, n, exp);
     }
     /*--------------------------------------------------------*/
+
+    @Override
+    public  <T extends Comparable<T>> void sort(Integer[] arr) { radixSort(arr, arr.length);}
 }
